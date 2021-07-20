@@ -6,9 +6,6 @@ session_start();
 check_login();
 ?>
 
-
-test
-
 <!DOCTYPE html>
 <html>
     <head>
