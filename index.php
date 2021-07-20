@@ -5,7 +5,7 @@ $C = New Connection();
 session_start();
 check_login();
 ?>
-
+test
 <!DOCTYPE html>
 <html>
     <head>
@@ -102,8 +102,8 @@ check_login();
                             </div>
 
 
-                        </div>                                       
-                    </div>                                       
+                        </div>
+                    </div>
 
                 </div>
                 <div class="fso-modal_frameborder_bottom"></div>
