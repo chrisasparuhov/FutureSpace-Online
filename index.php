@@ -5,7 +5,6 @@ $C = New Connection();
 session_start();
 check_login();
 ?>
-test
 <!DOCTYPE html>
 <html>
     <head>
