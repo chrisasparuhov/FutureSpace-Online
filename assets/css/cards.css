@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Overlock+SC');
+
+.fso_card {
+    text-shadow:2px 2px #000000;
+    zoom:1;
+    padding-top:1px;
+    width:300px;
+    height:437px;
+    float:left;
+    color:#9dc5e3;
+    margin:10px;
+    font-family: 'Overlock SC', cursive!important;
+}
+.card_tier {
+    margin-left:11px;
+    margin-top:11px;
+    font-family: 'Overlock SC', cursive!important;
+}
+.card_type_symbol {
+    text-shadow:2px 2px #000000;
+    zoom:1.3;
+    margin-top:-25px;
+    font-family: 'Overlock SC', cursive!important;
+    margin-bottom:15px;
+    margin-right:-10px;
+    width:50px;
+    float:right;
+    height:50px;
+    background:url(../img/cards/type_symbol.png);
+}
+.card_type_symbol-heal {
+    filter: hue-rotate(0);
+}
+
+.card_type_symbol-damage {
+    filter: hue-rotate(-135deg);
+}
+
+.card_type_symbol-buff {
+    filter: hue-rotate(180deg);
+}
+
+.card_type_symbol-gold {
+    filter: hue-rotate(-60deg);
+}
+.card_type_symbol-silver {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.card_type_symbol-bronze {
+    -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(50%);
+}
+
+.card_species {
+    font-family: 'Overlock SC', cursive;
+}
+
+.card_subtype_symbol {
+    zoom:1.3;
+    margin-top:-38px;
+    margin-bottom:3px;
+    width:41px;
+    font-family: 'Overlock SC', cursive;
+    height:41px;
+    background:url(../img/cards/subtype_symbol.png);
+    text-shadow:2px 2px #000000;
+}
+
+.card_title {
+    font-weight:bold;
+    margin-top:10px;
+    margin-right:19px;
+    font-family: 'Overlock SC';
+    margin-bottom:-5px;
+    text-align: right;
+    text-transform: capitalize;
+    font-size:30px!important;
+}
+
+.card_subtype {
+    color:#999;
+    font-size:17px;
+    font-family: 'Overlock SC', cursive!important;
+    margin-left:29px;
+    margin-top:8px;
+    text-shadow:2px 2px #000000;
+}
+
+.card_description {
+    font-size:15px;
+    font-family: 'Overlock SC', cursive!important;
+    margin-left:29px;
+    margin-top:20px;
+    width:190px;
+    text-shadow:2px 2px #000000;
+}
+
+.card_flavor {
+    font-size:12px;
+    margin-left:29px;
+    margin-top:15px;
+    width:190px;
+    font-family: 'Overlock SC', cursive!important;
+}
+
+.card_imgcanvas {
+    width:260px;
+    height:185px;
+   
+    font-family: 'Overlock SC', cursive!important;
+    margin-left:29px;
+}
+
+.carddamage {
+    border:1px solid darkred;
+    border-right:#1b1f22;
+    font-family: 'Overlock SC', cursive!important;
+    color: lightcoral;
+}
+
+
+.cardgold {
+    border:2px solid #dea710;
+    border-right:#dea710;
+    font-family: 'Overlock SC', cursive!important;
+    color: yellow;
+}
+
+.cardsilver {
+    border:2px solid lightgray;
+    border-right:#1b1f22;
+    color: white;
+    font-family: 'Overlock SC', cursive!important;
+}
+
+.cardbronze {
+    border:2px solid #976c4e;
+    border-right:#1b1f22;
+    color: #d59d71;
+    font-family: 'Overlock SC', cursive!important;
+}
+
+.cardhealing {
+    border:2px solid darkgreen;
+    border-right:#1b1f22;
+    font-family: 'Overlock SC', cursive!important;
+    color: lightgreen;
+}
+
+.cardbuff {
+    border:2px solid darkmagenta;
+    border-right:#1b1f22;
+    font-family: 'Overlock SC', cursive!important;
+    color: darkmagenta;
+}
+
+.card_type_text {
+    text-shadow:2px 2px #000000;
+    text-align: right; 
+    margin-right:42px;
+    margin-top:149px;
+    padding-bottom:10px;
+    padding-right:-10px;
+    font-weight: lighter;
+    font-size:18px!important;
+    text-transform: uppercase;
+    font-family: 'Overlock SC', cursive!important;
+}
+
+.card_type {
+    margin-right:25px;
+    margin-top:2px;
+    font-family: 'Overlock SC', cursive!important;
+}
